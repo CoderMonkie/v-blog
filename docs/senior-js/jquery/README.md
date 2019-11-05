@@ -1,1 +1,0 @@
-# senior-js/jquery/index

@@ -6,9 +6,10 @@ module.exports = [
     {
         text: 'JavaScript进阶',
         items: [
-          {text: '框架的设计 jQuery源码分析', link: '/senior-js/jquery/'},
-          {text: '函数式编程 Underscore源码分析', link: '/senior-js/underscore/'},
-          {text: '模块化编程 自研模块加载器', link: '/senior-js/module/'},
+          {text: '框架的设计 jQuery源码分析', link: '/javascript/jquery/'},
+          {text: '函数式编程 Underscore源码分析', link: '/javascript/underscore/'},
+          {text: '模块化编程 自研模块加载器', link: '/javascript/module/'},
+          {text: '其它-杂文随笔', link: '/javascript/other/'},
         ]
       },
       {
@@ -36,7 +37,10 @@ module.exports = [
         ]
       },
       {
-        text: 'Github',
-        link: 'https://github.com/CoderMonkie/v-blog'
+        text: 'Contact',
+        items: [
+          {text: 'GitHub', link: 'https://github.com/CoderMonkie/v-blog'},
+          {text: 'Gitee', link: 'http://coder-monkey.gitee.io/v-blog/'}
+        ]
       },
 ]

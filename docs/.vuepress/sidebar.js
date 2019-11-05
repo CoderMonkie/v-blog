@@ -1,7 +1,8 @@
 module.exports = {
-    '/senior-js/jquery/': require('../senior-js/jquery/sidebar'),
-    '/senior-js/underscore/': require('../senior-js/underscore/sidebar'),
-    '/senior-js/module/': require('../senior-js/module/sidebar'),
+    '/javascript/jquery/': require('../javascript/jquery/sidebar'),
+    '/javascript/underscore/': require('../javascript/underscore/sidebar'),
+    '/javascript/module/': require('../javascript/module/sidebar'),
+    '/javascript/other/': require('../javascript/other/sidebar'),
     '/spa/': require('../spa/sidebar'),
     '/mobile/': require('../mobile/sidebar'),
     '/node/': require('../node/sidebar'),

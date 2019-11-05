@@ -1,2 +1,0 @@
-
-# senior-js/underscore/index
