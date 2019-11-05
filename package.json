@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build-docs": "vuepress build docs",
-    "deploy": "deploy.bat"
+    "deploy": "deploy.bat",
+    "deploy-gitee": "deploy-gitee.bat"
   },
   "repository": {
     "type": "git",
