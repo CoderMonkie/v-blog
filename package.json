@@ -1,0 +1,22 @@
+{
+  "name": "v-blog",
+  "version": "1.0.0",
+  "description": "Personal blog based on VuePress.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build-docs": "vuepress build docs",
+    "deploy": "deploy.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderMonkie/v-blog.git"
+  },
+  "keywords": ["front-end","VuePress","blog"],
+  "author": "MaoNianYou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderMonkie/v-blog/issues"
+  },
+  "homepage": "https://github.com/CoderMonkie/v-blog#readme"
+}
