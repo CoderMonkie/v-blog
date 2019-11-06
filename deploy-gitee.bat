@@ -7,7 +7,7 @@ echo building-complete.
 cd docs/.vuepress/dist
 git init
 git add -A
-git commit -m 'auto-deploy'
+git commit -m "%date% %time% auto-deploy"
 git remote add origin https://gitee.com/coder-monkey/v-blog.git
 git pull
 git push --force origin HEAD:v-blog-pages

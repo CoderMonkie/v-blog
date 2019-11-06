@@ -14,4 +14,11 @@ module.exports = [
             '/knowhow/将VuePress建立的博客部署到GitHub或Gitee上',
         ]
     },
+    {
+        title: 'Other',
+        collapsable: true,
+        children: [
+            '/knowhow/关于npm包管理器最常用的内容都在这儿了',
+        ]
+    }
 ]

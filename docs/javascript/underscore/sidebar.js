@@ -33,7 +33,6 @@ module.exports = [
     },
     {
         title: 'Underscore 对象篇',
-        // path: '/javascript/underscore/',
         collapsable: true,
         children: [
             '/javascript/underscore/1',

@@ -7,8 +7,12 @@ module.exports = [{
     link: '/knowhow/'
   },
   {
-    text: 'JavaScript进阶',
+    text: 'JavaScript',
     items: [{
+        text: 'JavaScript基础',
+        link: '/javascript/base/'
+      },
+      {
         text: '框架的设计 jQuery源码分析',
         link: '/javascript/jquery/'
       },
@@ -19,10 +23,6 @@ module.exports = [{
       {
         text: '模块化编程 自研模块加载器',
         link: '/javascript/module/'
-      },
-      {
-        text: '其它-杂文随笔',
-        link: '/javascript/other/'
       },
     ]
   },
