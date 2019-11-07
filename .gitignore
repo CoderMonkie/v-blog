@@ -1,6 +1,3 @@
 .vscode/
 docs/.vuepress/dist/
 node_modules/
-deploy-all.bat
-deploy-gitee.bat
-deploy.bat
