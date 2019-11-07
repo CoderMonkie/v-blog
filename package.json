@@ -8,7 +8,8 @@
     "build-docs": "vuepress build docs",
     "deploy": "deploy.bat",
     "deploy-gitee": "deploy-gitee.bat",
-    "deploy-all": "deploy-all.bat"
+    "deploy-all": "deploy-all.bat",
+    "ci-cd": "git push && deploye-all.bat"
   },
   "repository": {
     "type": "git",

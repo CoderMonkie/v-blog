@@ -53,9 +53,23 @@
 
 > 如何免密提交到远程：
 
-  编辑`config`文件的`origin`下的`url`
+* 编辑`config`文件的`origin`下的`url`
 
-  - > `https://username:password@github.com/username/project.git`
+  - > `https://username:password@github.com/username/repository.git`
    - username就是你账号
    - password写密码
    - project是仓库名
+
+* 另一种方式
+
+  ```cmd
+  git config --global credential.helper store
+  ```
+
+  `.git/config`中添加`credential`配置
+  ```config
+  [credential]  
+      helper = store
+  ```
+
+  也就是会记住登录信息，以后就不用手输了。

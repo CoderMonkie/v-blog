@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/QRCode-CoderPower.png
 actionText: 我要学习 ➡
-actionLink: /javascript/base/
+actionLink: /knowhow/
 features:
 - title: JavaScript进阶
   details: 夯实高级开发所需基础，提升编程技能及代码设计能力，学会阅读分析源码，建立健全技术知识体系，平滑过渡高级前端开发工程师。
