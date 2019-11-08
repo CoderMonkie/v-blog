@@ -9,7 +9,7 @@
     "deploy": "deploy.bat",
     "deploy-gitee": "deploy-gitee.bat",
     "deploy-all": "deploy-all.bat",
-    "ci-cd": "git push && deploye-all.bat"
+    "ci-cd": "git push && deploy-all.bat"
   },
   "repository": {
     "type": "git",
