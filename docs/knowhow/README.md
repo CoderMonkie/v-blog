@@ -11,5 +11,5 @@
 
 ::: tip
 更多精彩，欢迎关注公众号：  
-![](/img/QRCode-CoderPower.png)
+![](/v-blog/img/QRCode-CoderPower.png)
 :::
