@@ -8,3 +8,12 @@
     background: url('../img/logo.png') no-repeat;
     background-size: 100%;
 }
+
+.dark {
+    background-color: #1C1E1F !important;
+    color: #B9CBD9 !important;
+}
+
+.dark-code {
+    background-color: #000000 !important;
+}
