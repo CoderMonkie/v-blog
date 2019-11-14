@@ -4,6 +4,8 @@ heroImage: /img/QRCode-CoderPower.png
 actionText: 我要学习 ➡
 actionLink: /knowhow/
 features:
+- title: 技能宝典
+  details: 开发中的点点滴滴，小技巧与好实践，爬坑记录等，总结分享，点亮更多技能点，提升效率&避免踩坑。
 - title: JavaScript进阶
   details: 夯实高级开发所需基础，提升编程技能及代码设计能力，学会阅读分析源码，建立健全技术知识体系，平滑过渡高级前端开发工程师。
 - title: 单页应用开发
