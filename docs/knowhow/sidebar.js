@@ -19,6 +19,7 @@ module.exports = [
         collapsable: true,
         children: [
             '/knowhow/关于npm包管理器最常用的内容都在这儿了',
+            '/knowhow/Win10下安装Linux子系统Ubuntu',
         ]
     }
 ]
