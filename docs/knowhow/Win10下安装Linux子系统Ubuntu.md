@@ -12,15 +12,15 @@
 
   勾选【适用于 Linux 的Windows 子系统】
     
-  ![win10-subsys-ubuntu-0-prepare-01.jpg](/v-blog/img/wsl-ubuntu/win10-subsys-ubuntu-0-prepare-01.jpg)
+  ![win10-subsys-ubuntu-0-prepare-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-d6699aa3f68e010f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-  ![win10-subsys-ubuntu-0-prepare-02.jpg](/v-blog/img/wsl-ubuntu/win10-subsys-ubuntu-0-prepare-02.jpg)
+  ![win10-subsys-ubuntu-0-prepare-02.jpg](https://upload-images.jianshu.io/upload_images/14619861-dd93991f764da394.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 + 设置 》 更新和安全 》 开发者选项
 
   选择【开发人员模式】
 
-  ![win10-subsys-ubuntu-0-prepare-03.jpg](/v-blog/img/wsl-ubuntu/win10-subsys-ubuntu-0-prepare-03.jpg)
+  ![win10-subsys-ubuntu-0-prepare-03.jpg](https://upload-images.jianshu.io/upload_images/14619861-4769f1ff55883d1e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > 做完准备工作，需要重启电脑，  
   不然安装完 Ubuntu 后启动时还是会提示
