@@ -93,15 +93,15 @@
 
   在【Setting -- GitHub Pages】的Source的下拉框中选择要使用的分支  
   （也可以branch/docs文件夹，不过我们VuePress生成的博客嘛直接用分支了）
-  ![GitHub Pages](/v-blog/img/deploy-vblog/github-pages-setting.png)
+  ![GitHub Pages](https://s2.ax1x.com/2019/11/17/MrO6RH.png)
 
 - Gitee
 
   在【服务 -- Gitee Pages】点【启动】
-  ![Gitee Pages](/v-blog/img/deploy-vblog/gitee-pages-start.png)
+  ![Gitee Pages](https://s2.ax1x.com/2019/11/17/MrOsiD.png)
 
   更新网站的话静态文件推送后要点【更新】
-  ![Gitee Pages](/v-blog/img/deploy-vblog/gitee-pages-update.png)
+  ![Gitee Pages](https://s2.ax1x.com/2019/11/17/MrOczd.png)
 
 ---
 
@@ -219,7 +219,7 @@ npm run deploy
 
 ---
 
-> 还能继续改进？
+> 继续改进
 
 - `package.json`/`scripts`
   加一条，执行`git push`和`auto-deploy.bat`  

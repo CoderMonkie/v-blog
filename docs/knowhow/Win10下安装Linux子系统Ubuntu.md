@@ -12,15 +12,15 @@
 
   勾选【适用于 Linux 的Windows 子系统】
     
-  ![win10-subsys-ubuntu-0-prepare-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-d6699aa3f68e010f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-0-prepare-01.jpg](https://s2.ax1x.com/2019/11/17/MrsgJg.jpg)
 
-  ![win10-subsys-ubuntu-0-prepare-02.jpg](https://upload-images.jianshu.io/upload_images/14619861-dd93991f764da394.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-0-prepare-02.jpg](https://s2.ax1x.com/2019/11/17/Mrshyn.jpg)
 
 + 设置 》 更新和安全 》 开发者选项
 
   选择【开发人员模式】
 
-  ![win10-subsys-ubuntu-0-prepare-03.jpg](https://upload-images.jianshu.io/upload_images/14619861-4769f1ff55883d1e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-0-prepare-03.jpg](https://s2.ax1x.com/2019/11/17/MrsRzj.jpg)
 
 > 做完准备工作，需要重启电脑，  
   不然安装完 Ubuntu 后启动时还是会提示
@@ -35,29 +35,29 @@
 
   下载+安装，完毕后会出现启动按钮，也可以在开始菜单找到并打开。
 
-  ![win10-subsys-ubuntu-1-download-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-20f9f19cfe3bb46a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-download-01.jpg](https://s2.ax1x.com/2019/11/17/MrsfQs.jpg)
 
 + 启动 Ubuntu
 
   如果在准备工作后没有重启，此时会找不到子系统，还是需要重启一下的。
 
-  ![win10-subsys-ubuntu-1-start-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-a5fba8fab3da5bcb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-start-01.jpg](https://s2.ax1x.com/2019/11/17/MrT4de.jpg)
 
 + 安装中...
 
   正常情况的话就会是以下这样：
 
-  ![win10-subsys-ubuntu-1-install-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-1ea9b593217bb397.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-install-01.jpg](https://s2.ax1x.com/2019/11/17/MrscFS.jpg)
 
 + 设置用户名密码以添加用户  
   
-  ![win10-subsys-ubuntu-1-install-02.jpg](https://upload-images.jianshu.io/upload_images/14619861-e61045e94ed14324.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-install-02.jpg](https://s2.ax1x.com/2019/11/17/Mrs4Lq.jpg)
 
-  ![win10-subsys-ubuntu-1-install-03.jpg](https://upload-images.jianshu.io/upload_images/14619861-8f0f233fd04f0289.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-install-03.jpg](https://s2.ax1x.com/2019/11/17/MrToid.jpg)
 
-  ![win10-subsys-ubuntu-1-install-04.jpg](https://upload-images.jianshu.io/upload_images/14619861-7bffbabc321a3550.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-install-04.jpg](https://s2.ax1x.com/2019/11/17/MrT5IH.jpg)
 
-  ![win10-subsys-ubuntu-1-install-05.jpg](https://upload-images.jianshu.io/upload_images/14619861-34e8505e48aff7a9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-1-install-05.jpg](https://s2.ax1x.com/2019/11/17/MrTTJA.jpg)
 
 ---
 
@@ -122,11 +122,11 @@
   sudo apt update    # 替代了 sudo apt-get update
   ```
 
-  ![win10-subsys-ubuntu-2-repository-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-dfcd3d879921090f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-2-repository-01.jpg](https://s2.ax1x.com/2019/11/17/MrThZD.jpg)
 
   更新结束：
   
-  ![win10-subsys-ubuntu-2-repository-02.jpg](https://upload-images.jianshu.io/upload_images/14619861-4ec1347a4bbeaeff.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-2-repository-02.jpg](https://s2.ax1x.com/2019/11/17/MrTOL8.jpg)
 
 ---
 
@@ -178,23 +178,23 @@
     ```
     vncserver  # 等同于 vncserver :0，以这个数字ID区分可以开多个桌面
     ```
-    ![win10-subsys-ubuntu-3-remote-01.jpg](https://upload-images.jianshu.io/upload_images/14619861-cae2d56dcb883c52.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![win10-subsys-ubuntu-3-remote-01.jpg](https://s2.ax1x.com/2019/11/17/MrTqQP.jpg)
 
   - 在Win10上，启动VNC Viewer
 
     输入ubuntu系统地址，如果`vncserver :1`，这里就是`127.0.0.1:1`，默认为0可以省略。
 
-    ![win10-subsys-ubuntu-3-remote-02.jpg](https://upload-images.jianshu.io/upload_images/14619861-47f3edcdf240eff3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![win10-subsys-ubuntu-3-remote-02.jpg](https://s2.ax1x.com/2019/11/17/MrTLsf.jpg)
 
-    ![win10-subsys-ubuntu-3-remote-03.jpg](https://upload-images.jianshu.io/upload_images/14619861-e692912d8d813ef7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![win10-subsys-ubuntu-3-remote-03.jpg](https://s2.ax1x.com/2019/11/17/MrTjeS.jpg)
 
 > 以下为没有正常显示出图形界面的情况：
 
-  ![win10-subsys-ubuntu-3-remote-04.jpg](https://upload-images.jianshu.io/upload_images/14619861-20d83433ce51e832.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-3-remote-04.jpg](https://s2.ax1x.com/2019/11/17/MrTvdg.jpg)
 
 > 正常显示的情况：
 
-  ![win10-subsys-ubuntu-simple-UI-lxde.jpg](https://upload-images.jianshu.io/upload_images/14619861-dd6c3fccbb1b6372.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-simple-UI-lxde.jpg](https://s2.ax1x.com/2019/11/17/MrTxoQ.jpg)
 
 ---
 
@@ -213,4 +213,4 @@
   ```bash
   startxfce4 &
   ```
-  ![win10-subsys-ubuntu-3-xfce-01.png](https://upload-images.jianshu.io/upload_images/14619861-f73ba2b3c1cec210.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![win10-subsys-ubuntu-3-xfce-01.png](https://s2.ax1x.com/2019/11/17/Mr7Sij.png)
