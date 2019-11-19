@@ -1,7 +1,7 @@
 module.exports = [
     {
         title: 'JavaScript基础',
-        collapsable: true,
+        collapsable: false,
         children: [
             '/javascript/base/JS中的基本类型',
             '/javascript/base/JS中的闭包',
@@ -10,7 +10,7 @@ module.exports = [
     },
     {
         title: 'ES6',
-        collapsable: true,
+        collapsable: false,
         children: [
             '/javascript/base/ES6中字符串相关',
             '/javascript/base/ES6中数组操作相关',

@@ -1,7 +1,7 @@
 module.exports = [
     {
         title: '模块加载器设计概要',
-        collapsable: true,
+        collapsable: false,
         path: '/javascript/module/',
         children: [
             '/javascript/module/1',
@@ -10,7 +10,7 @@ module.exports = [
     },
     {
         title: '模块加载器设计核心',
-        collapsable: true,
+        collapsable: false,
         path: '/javascript/module/',
         children: [
             '/javascript/module/1',

@@ -1,7 +1,7 @@
 module.exports = [
     {
         title: 'sub-title-1',
-        collapsable: true,
+        collapsable: false,
         children: [
             '/spa/sub-title-1/1',
             '/spa/sub-title-1/2',
@@ -9,7 +9,7 @@ module.exports = [
     },
     {
         title: 'sub-title-2',
-        collapsable: true,
+        collapsable: false,
         children: [
             '/spa/sub-title-2/1',
             '/spa/sub-title-2/2',
