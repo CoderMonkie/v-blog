@@ -12,6 +12,7 @@ module.exports = [
         children: [
             '/knowhow/使用VuePress搭建个人博客',
             '/knowhow/将VuePress建立的博客部署到GitHub或Gitee上',
+            '/knowhow/给博客添加评论功能',
         ]
     },
     {
