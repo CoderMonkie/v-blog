@@ -23,12 +23,12 @@
    没有用户的话先注册。新建一个仓库：  
    点左边的`New`或右上角加号里面的`New repository`  
 
-   ![new](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_01-github-new.png)  
-   ![new](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_02-github-new-repo.png)
+   ![01-github-new.png](https://s2.ax1x.com/2019/11/17/MrDb7T.png)  
+   ![02-github-new-repo.png](https://s2.ax1x.com/2019/11/17/MrDg78.png)
 
    填写仓库名，点`Create repository`完成创建。  
    
-   ![new](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_03-github-create-repository.png)
+   ![03-github-create-repository.png](https://s2.ax1x.com/2019/11/17/MrDRAS.png)
 
 2. clone 到本地，然后开始开发
 
@@ -49,7 +49,7 @@
 
    上面命令就让我们的blog启动起来了。HelloWorld：  
    
-   ![HelloWorld](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_04-hello-world.png)
+   ![04-hello-world.png](https://s2.ax1x.com/2019/11/17/MrDc0f.png)
 
 ## [本地博客项目搭建](#本地博客项目搭建)
 
@@ -145,7 +145,7 @@ npm start
 
 - `README.md` 中的配置对应下图中的②
 
-![simple-homnepage](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_05-simple-homepage.png)
+![05-simple-homepage.png](https://s2.ax1x.com/2019/11/17/MrDWtg.png)
 
 好了，简单主页出来了。下面我们要添加的是`Navbar`导航栏以及`sidebar`侧边栏。
 
@@ -204,7 +204,7 @@ module.exports = {
 - 外部链接直接填上网址，如上面的 Github
 
 结果图：
-![navbar.gif](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_06-navbar.gif)
+![06-navbar.jpg](https://s1.ax1x.com/2019/11/19/MRSFWn.jpg)
 
 > 我们在上面添加了若干链接，还没有写具体文章，所以还不能跳转。  
 > 当条目越来越多，文件也越来越长，就有必要分出单独文件来管理了。
@@ -341,15 +341,15 @@ module.exports = [
 
 为了大家看得清晰，文件结构及配置截图如下：
 
-![sidebar-configuration](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_06-sidebar-configuration.png)
+![sidebar-configuration](https://s2.ax1x.com/2019/11/17/MrD4pj.png)
 
 `npm run start`启动起来查看效果：
 
-![sidebar-index](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_07-sidebar-index.png)
+![sidebar-index](https://s2.ax1x.com/2019/11/17/MrDfhQ.png)
 
-![sidebar-article-1](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_08-sidebar-article-1.png)
+![sidebar-article-1](https://s2.ax1x.com/2019/11/17/MrDIcn.png)
 
-![sidebar-article-2](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_09-sidebar-article-2.png)
+![sidebar-article-2](https://s2.ax1x.com/2019/11/17/MrDoXq.png)
 
 > 注意：  
   &emsp;&emsp;`nav.js`中的路由地址，  
@@ -377,7 +377,7 @@ actionText: 我要学习 ➡
 
 重新启动，刷新页面，图片出来了：
 
-![show-heroImage](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_10-show-heroImage.png)
+![show-heroImage](https://s2.ax1x.com/2019/11/17/MrD7n0.png)
 
 ### 编写内容
 
@@ -432,7 +432,7 @@ actionText: 我要学习 ➡
 
 看下效果：
 
-![icon-and-logo](https://images.cnblogs.com/cnblogs_com/CoderMonkie/1591926/o_11-icon-and-logo.png)
+![icon-and-logo](https://s2.ax1x.com/2019/11/17/MrDHBV.png)
 
 ### 其它
 
