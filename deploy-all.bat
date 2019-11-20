@@ -16,7 +16,9 @@ REM git remote add origin https://username:password@gitee.com/username/repo.git
 git remote add origin https://gitee.com/coder-monkey/v-blog.git
 git pull
 git push --force origin HEAD:v-blog-pages
-echo "Gitee Pages Deploy Complete!"
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
+echo "/_/_ Gitee Pages Deploy Complete! /_/_"
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
 
 REM 部署完上面的 Gitee Pages
 REM 需要删除 .git 文件夹
@@ -33,13 +35,17 @@ REM git remote add origin https://username:password@github.com/username/repo.git
 git remote add origin https://github.com/CoderMonkie/v-blog.git
 git pull
 git push --force origin HEAD:gh-pages
-echo "GitHub Pages Deploy Complete!"
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
+echo "/_/_ GitHub Pages Deploy Complete!/_/_"
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
 
 REM To delete the dist folder
 cd ..
 echo delete-directory: "%cd%/dist"
-rmdir /s /q "%cd%/dist"
+:: rmdir /s /q "%cd%/dist"
 cd..
 cd..
-echo Auto-Deploy-Complete!
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
+echo "/_/_/_/_ Auto-Deploy-Complete!/_/_/_/_"
+echo "/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_"
 pause
