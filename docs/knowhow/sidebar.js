@@ -3,6 +3,7 @@ module.exports = [
         title: 'Git',
         collapsable: false,
         children: [
+            '/knowhow/Git常用命令入门',
             '/knowhow/关联多个远程仓库实现一次push多站提交',
         ]
     },
