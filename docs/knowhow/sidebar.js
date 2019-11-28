@@ -5,6 +5,7 @@ module.exports = [
         children: [
             '/knowhow/Git常用命令入门',
             '/knowhow/关联多个远程仓库实现一次push多站提交',
+            '/knowhow/解放双手之自动拉取和推送',
         ]
     },
     {
