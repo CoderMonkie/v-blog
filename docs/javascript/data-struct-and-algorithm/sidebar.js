@@ -14,9 +14,12 @@ module.exports = [
         title: '排序算法',
         collapsable: false,
         children: [
-            '/javascript/data-struct-and-algorithm/A01-冒泡排序',
-            '/javascript/data-struct-and-algorithm/A02-插入排序',
-            '/javascript/data-struct-and-algorithm/A03-快速排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-01-冒泡排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-02-选择排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-03-插入排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-04-希尔排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-05-快速排序',
+            '/javascript/data-struct-and-algorithm/经典排序算法-06-归并排序',
         ]
     },
 ]

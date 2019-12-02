@@ -1,3 +1,7 @@
+---
+comment: false
+---
+
 # 技能宝典
 
 ## Git

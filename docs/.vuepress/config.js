@@ -20,6 +20,22 @@ module.exports = {
         }
       }
     ],
+    [
+      'vuepress-plugin-comment',
+      {
+        choosen: 'valine',
+        options: {
+          el: '#vcomments',
+          appId: 'MWFjOj2N1NfPTkzljwjL1XRa-gzGzoHsz',
+          appKey: 'KEHmUPGGqftbbiwXQCWJIXIL',
+          notify:false,
+          verify:false,
+          avatar:'mm',
+          placeholder: '总想对你表白...\r\n让我想想怎么喷...',
+          visitor: true,
+        }
+      }
+    ]
   ],
   lastUpdated: 'Last Updated: ',
 }
