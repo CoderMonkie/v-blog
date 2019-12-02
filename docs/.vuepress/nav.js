@@ -13,6 +13,10 @@ module.exports = [{
         link: '/javascript/base/'
       },
       {
+        text: '数据结构与算法--JavaScript实现',
+        link: '/javascript/data-struct-and-algorithm/'
+      },
+      {
         text: '框架的设计 jQuery源码分析',
         link: '/javascript/jquery/'
       },

@@ -1,5 +1,6 @@
 module.exports = {
     '/knowhow/': require('../knowhow/sidebar'),
+    '/javascript/data-struct-and-algorithm/': require('../javascript/data-struct-and-algorithm/sidebar'),
     '/javascript/base/': require('../javascript/base/sidebar'),
     '/javascript/jquery/': require('../javascript/jquery/sidebar'),
     '/javascript/underscore/': require('../javascript/underscore/sidebar'),
