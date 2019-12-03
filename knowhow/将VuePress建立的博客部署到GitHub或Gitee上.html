@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>将VuePress建立的博客部署到GitHub或Gitee上 | Coder-Monkey</title>
+    <meta name="description" content="~从前端到全栈开发~和码路工人一起学~">
+    <link rel="icon" href="/v-blog/img/logo.png">
+  <link rel="stylesheet" href="/v-blog/css/style.css">
+    
+    <link rel="preload" href="/v-blog/assets/css/0.styles.935ede12.css" as="style"><link rel="preload" href="/v-blog/assets/js/app.55913e7e.js" as="script"><link rel="preload" href="/v-blog/assets/js/4.2528882c.js" as="script"><link rel="preload" href="/v-blog/assets/js/3.e688a6f7.js" as="script"><link rel="preload" href="/v-blog/assets/js/49.64d73418.js" as="script"><link rel="prefetch" href="/v-blog/assets/js/1.2563b87a.js"><link rel="prefetch" href="/v-blog/assets/js/10.74d55c3b.js"><link rel="prefetch" href="/v-blog/assets/js/11.147fc1ef.js"><link rel="prefetch" href="/v-blog/assets/js/12.45ef25d8.js"><link rel="prefetch" href="/v-blog/assets/js/13.a9076043.js"><link rel="prefetch" href="/v-blog/assets/js/14.37cdf9a3.js"><link rel="prefetch" href="/v-blog/assets/js/15.658b71f2.js"><link rel="prefetch" href="/v-blog/assets/js/16.dd1f8798.js"><link rel="prefetch" href="/v-blog/assets/js/17.d6c9c977.js"><link rel="prefetch" href="/v-blog/assets/js/18.651c4afe.js"><link rel="prefetch" href="/v-blog/assets/js/19.74b7956e.js"><link rel="prefetch" href="/v-blog/assets/js/20.6397bfe4.js"><link rel="prefetch" href="/v-blog/assets/js/21.40105082.js"><link rel="prefetch" href="/v-blog/assets/js/22.29098e2d.js"><link rel="prefetch" href="/v-blog/assets/js/23.c07041c4.js"><link rel="prefetch" href="/v-blog/assets/js/24.e1344ab6.js"><link rel="prefetch" href="/v-blog/assets/js/25.a1076af5.js"><link rel="prefetch" href="/v-blog/assets/js/26.25e40ff1.js"><link rel="prefetch" href="/v-blog/assets/js/27.019142e8.js"><link rel="prefetch" href="/v-blog/assets/js/28.82f11c00.js"><link rel="prefetch" href="/v-blog/assets/js/29.04292801.js"><link rel="prefetch" href="/v-blog/assets/js/30.b306156f.js"><link rel="prefetch" href="/v-blog/assets/js/31.19c12c72.js"><link rel="prefetch" href="/v-blog/assets/js/32.d913ab55.js"><link rel="prefetch" href="/v-blog/assets/js/33.ec4dcd39.js"><link rel="prefetch" href="/v-blog/assets/js/34.eab8fa51.js"><link rel="prefetch" href="/v-blog/assets/js/35.d772c2e4.js"><link rel="prefetch" href="/v-blog/assets/js/36.90008a3f.js"><link rel="prefetch" href="/v-blog/assets/js/37.5594f55a.js"><link rel="prefetch" href="/v-blog/assets/js/38.d16b903a.js"><link rel="prefetch" href="/v-blog/assets/js/39.da4b9ba4.js"><link rel="prefetch" href="/v-blog/assets/js/40.714d83f6.js"><link rel="prefetch" href="/v-blog/assets/js/41.55773230.js"><link rel="prefetch" href="/v-blog/assets/js/42.83101c81.js"><link rel="prefetch" href="/v-blog/assets/js/43.83240895.js"><link rel="prefetch" href="/v-blog/assets/js/44.d5e2f0d6.js"><link rel="prefetch" href="/v-blog/assets/js/45.0a7a5f25.js"><link rel="prefetch" href="/v-blog/assets/js/46.2a99dc1e.js"><link rel="prefetch" href="/v-blog/assets/js/47.9659f6d7.js"><link rel="prefetch" href="/v-blog/assets/js/48.c3f0fb88.js"><link rel="prefetch" href="/v-blog/assets/js/5.85be2794.js"><link rel="prefetch" href="/v-blog/assets/js/50.a56065ef.js"><link rel="prefetch" href="/v-blog/assets/js/51.e24216cf.js"><link rel="prefetch" href="/v-blog/assets/js/52.f692e99c.js"><link rel="prefetch" href="/v-blog/assets/js/53.7ca696cc.js"><link rel="prefetch" href="/v-blog/assets/js/54.db2ab67f.js"><link rel="prefetch" href="/v-blog/assets/js/55.ea2bb3e0.js"><link rel="prefetch" href="/v-blog/assets/js/6.11a677b7.js"><link rel="prefetch" href="/v-blog/assets/js/7.37579d0b.js"><link rel="prefetch" href="/v-blog/assets/js/8.6e52dfb5.js"><link rel="prefetch" href="/v-blog/assets/js/9.c9155426.js">
+    <link rel="stylesheet" href="/v-blog/assets/css/0.styles.935ede12.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/v-blog/" class="home-link router-link-active"><!----> <span class="site-name">Coder-Monkey
+      <button type="button" class="color-btn">dark</button></span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/v-blog/" class="nav-link">Home</a></div><div class="nav-item"><a href="/v-blog/knowhow/" class="nav-link router-link-active">技能宝典</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/javascript/base/" class="nav-link">JavaScript基础</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/data-struct-and-algorithm/" class="nav-link">数据结构与算法--JavaScript实现</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/jquery/" class="nav-link">框架的设计 jQuery源码分析</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/underscore/" class="nav-link">函数式编程 Underscore源码分析</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/module/" class="nav-link">模块化编程 自研模块加载器</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="单页应用开发" class="dropdown-title"><span class="title">单页应用开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/spa/react/" class="nav-link">组件化开发 React专题</a></li><li class="dropdown-item"><!----> <a href="/v-blog/spa/vue/" class="nav-link">组件化开发 Vue专题</a></li><li class="dropdown-item"><!----> <a href="/v-blog/spa/webpack/" class="nav-link">现代前端工程实践方案 解锁webpack</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="移动端APP开发" class="dropdown-title"><span class="title">移动端APP开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node开发" class="dropdown-title"><span class="title">Node开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="嵌入式" class="dropdown-title"><span class="title">嵌入式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Contact" class="dropdown-title"><span class="title">Contact</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/CoderMonkie/v-blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="http://coder-monkey.gitee.io/v-blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/v-blog/" class="nav-link">Home</a></div><div class="nav-item"><a href="/v-blog/knowhow/" class="nav-link router-link-active">技能宝典</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/javascript/base/" class="nav-link">JavaScript基础</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/data-struct-and-algorithm/" class="nav-link">数据结构与算法--JavaScript实现</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/jquery/" class="nav-link">框架的设计 jQuery源码分析</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/underscore/" class="nav-link">函数式编程 Underscore源码分析</a></li><li class="dropdown-item"><!----> <a href="/v-blog/javascript/module/" class="nav-link">模块化编程 自研模块加载器</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="单页应用开发" class="dropdown-title"><span class="title">单页应用开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/spa/react/" class="nav-link">组件化开发 React专题</a></li><li class="dropdown-item"><!----> <a href="/v-blog/spa/vue/" class="nav-link">组件化开发 Vue专题</a></li><li class="dropdown-item"><!----> <a href="/v-blog/spa/webpack/" class="nav-link">现代前端工程实践方案 解锁webpack</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="移动端APP开发" class="dropdown-title"><span class="title">移动端APP开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/mobile/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node开发" class="dropdown-title"><span class="title">Node开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/node/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="嵌入式" class="dropdown-title"><span class="title">嵌入式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO1/" class="nav-link">TODO-1</a></li><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO2/" class="nav-link">TODO-2</a></li><li class="dropdown-item"><!----> <a href="/v-blog/embeded/TODO3/" class="nav-link">TODO-3</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Contact" class="dropdown-title"><span class="title">Contact</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/CoderMonkie/v-blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="http://coder-monkey.gitee.io/v-blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Git</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/v-blog/knowhow/Git常用命令入门.html" class="sidebar-link">Git常用命令入门</a></li><li><a href="/v-blog/knowhow/关联多个远程仓库实现一次push多站提交.html" class="sidebar-link">关联多个远程仓库实现一次push多站提交</a></li><li><a href="/v-blog/knowhow/解放双手之自动拉取和推送.html" class="sidebar-link">解放双手之自动拉取和推送</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>VuePress</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/v-blog/knowhow/使用VuePress搭建个人博客.html" class="sidebar-link">使用VuePress搭建个人博客</a></li><li><a href="/v-blog/knowhow/将VuePress建立的博客部署到GitHub或Gitee上.html" class="active sidebar-link">将VuePress建立的博客部署到GitHub或Gitee上</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/v-blog/knowhow/给博客添加评论功能.html" class="sidebar-link">给博客添加评论功能</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Other</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/v-blog/knowhow/关于npm包管理器最常用的内容都在这儿了.html" class="sidebar-link">关于npm包管理器最常用的内容都在这儿了</a></li><li><a href="/v-blog/knowhow/Win10下安装Linux子系统Ubuntu.html" class="sidebar-link">Win10下安装Linux子系统Ubuntu</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="将vuepress建立的博客部署到github或gitee上"><a href="#将vuepress建立的博客部署到github或gitee上" class="header-anchor">#</a> 将<code>VuePress</code>建立的博客部署到GitHub或Gitee上</h1> <p>在上一篇中，我们详细介绍了如何利用<code>VuePress</code>搭建起个人博客系统，但这只是在本地debug启动的，接下来，我们把它部署到<code>Github</code>网站。</p> <ul><li><p>在<code>config.js</code>中配置<code>base</code></p> <div class="language-js extra-class"><pre class="language-js"><code>  base<span class="token punctuation">:</span> <span class="token string">'/v-blog/'</span><span class="token punctuation">,</span>
+</code></pre></div><p><code>v-blog</code>是我Github上的仓库名</p></li> <li><p>编写自动化脚本</p> <p>在根目录<code>/v-blog/</code>下我们需要编写两个脚本</p> <p>因为写在一个脚本里话编译完会直接退出，<br>
+所以把编译的命令单独放在另外一个脚本文件里调就可以了</p> <ul><li><p>build.bat</p> <div class="language-bat extra-class"><pre class="language-text"><code>@echo off
+vuepress build docs
+</code></pre></div></li> <li><p>deploy.bat</p> <div class="language-bat extra-class"><pre class="language-text"><code>@echo off
+
+echo building...
+call build.bat
+echo building-complete.
+
+cd docs/.vuepress/dist
+git init
+git add -A
+git commit -m 'auto-deploy'
+git remote add origin https://github.com/CoderMonkie/v-blog.git
+git pull
+git push --force origin HEAD:gh-pages
+
+REM To delete the dist folder
+cd ..
+echo delete-directory: &quot;%cd%/dist&quot;
+rmdir /s /q &quot;%cd%/dist&quot;
+cd..
+cd..
+echo Auto-Deploy-Complete!
+pause
+</code></pre></div></li></ul> <p>然后，只要双击执行<code>depploy.bat</code>就可以。<br>
+或者配置到<code>package.json</code>的<code>scripts</code>中。</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;deploy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;deploy.bat&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-bat extra-class"><pre class="language-text"><code>npm run deploy
+</code></pre></div><p>编译完成提及到远程的时候，会提示输入用户名密码。<br>
+(或者保存登录权限信息使其静默推送)</p></li> <li><p>GitHub中本项目的<code>setting</code>下确认</p> <p>我们在push时设为推送到<code>gh-pages</code>分支，<br>
+此时，<code>v-blog</code> -- <code>setting</code>下的<code>GitHub Pages</code>设置，<br>
+应该为<code>gh-pages</code>选中状态，不是的话改为<code>gh-pages</code></p> <p>这样就完成了。如果<code>GitHub Pages</code>设置页显示：</p> <div class="language- extra-class"><pre class="language-text"><code>Your site is published at https://codermonkie.github.io/v-blog/
+</code></pre></div><p>那么说明网站发布了，可以查看。</p> <div class="language- extra-class"><pre class="language-text"><code>Your site is ready to be published at https://codermonkie.github.io/v-blog/.
+</code></pre></div><p>那么说明<code>GitHub</code>还没有完成给你发布，访问的话会是404，<em>等待吧。</em></p></li></ul> <hr> <p>(深夜)更新：已经好了<a href="https://codermonkie.github.io/v-blog/" target="_blank" rel="noopener noreferrer">v-blog<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+在<code>GitHub Pages</code>/<code>source</code>的下拉框里切换了几次，不经意间发现已经发布了。</p> <hr> <h3 id="补充："><a href="#补充：" class="header-anchor">#</a> 补充：</h3> <p>补两张图，看起来能更简明，直截了当。</p> <ul><li><p>GitHub</p> <p>在【Setting -- GitHub Pages】的Source的下拉框中选择要使用的分支<br>
+（也可以branch/docs文件夹，不过我们VuePress生成的博客嘛直接用分支了）
+<img src="https://s2.ax1x.com/2019/11/17/MrO6RH.png" alt="GitHub Pages"></p></li> <li><p>Gitee</p> <p>在【服务 -- Gitee Pages】点【启动】
+<img src="https://s2.ax1x.com/2019/11/17/MrOsiD.png" alt="Gitee Pages"></p> <p>更新网站的话静态文件推送后要点【更新】
+<img src="https://s2.ax1x.com/2019/11/17/MrOczd.png" alt="Gitee Pages"></p></li></ul> <hr> <h3 id="如果是要将博客部署到gitee："><a href="#如果是要将博客部署到gitee：" class="header-anchor">#</a> 如果是要将博客部署到Gitee：</h3> <p>除了我们可以同时提交到两个远程（GitHub和Gitee仓库），<br> <a href="https://gitee.com/coder-monkey/JS-Corner/tree/master/JS-Corner-07" target="_blank" rel="noopener noreferrer">关联多个远程仓库，实现一次push多站提交<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+也可以在同一个工程文件里实现两个远程仓库的部署。</p> <p>将上面给出的脚本<code>deploy.bat</code>，另存一份<code>deploy-gitee.bat</code>,<br>
+修改一下，主要有两处：</p> <ul><li>远程地址（github -&gt; gitee 的地址）</li> <li>提交到的远程分支名（gh-pages -&gt; v-blog-pages）</li></ul> <div class="language-bat extra-class"><pre class="language-text"><code>@echo off
+
+echo building...
+call build.bat
+echo building-complete.
+
+cd docs/.vuepress/dist
+git init
+git remote add origin https://gitee.com/coder-monkey/v-blog.git
+git add -A
+git commit -m 'auto-deploy'
+git pull
+git push --force origin HEAD:v-blog-pages
+
+REM To delete the dist folder
+cd ..
+echo delete-directory: &quot;%cd%/dist&quot;
+rmdir /s /q &quot;%cd%/dist&quot;
+cd..
+cd..
+echo Auto-Deploy-Complete!
+pause
+</code></pre></div><p><code>package.json</code>里加<code>scripts</code>一个命令</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;deploy-gitee&quot;</span><span class="token operator">:</span> <span class="token string">&quot;deploy-gitee.bat&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>双击执行<code>deploy-gitee.bat</code>或以下：</p> <div class="language-bat extra-class"><pre class="language-text"><code>npm run deploy-gitee
+</code></pre></div><p>再稍微动动手脚本稍作修改就可以实现一次命令多个远程部署了~</p> <hr> <blockquote><p><code>auto-deploy.bat</code>最终版：</p></blockquote> <div class="language-bat extra-class"><pre class="language-text"><code>@echo off
+
+echo building...
+call build.bat
+echo building-complete.
+
+cd docs/.vuepress/dist
+
+git init
+git config user.name maonianyou
+git config user.email maonianyou@foxmail.com
+git add -A
+git commit -m &quot;%date% %time% auto-deploy&quot;
+REM 静默推送的话可在地址里填入username和password,如
+REM git remote add origin https://username:password@gitee.com/username/repo.git
+git remote add origin https://gitee.com/coder-monkey/v-blog.git
+git pull
+git push --force origin HEAD:v-blog-pages
+echo &quot;Gitee Pages Deploy Complete!&quot;
+
+REM 部署完上面的 Gitee Pages
+REM 需要删除 .git 文件夹
+REM 以备部署 GitHub Pages 再次初始化时用
+rmdir /s /q &quot;%cd%/.git&quot;
+
+git init
+git config user.name maonianyou
+git config user.email maonianyou@gmail.com
+git add -A
+git commit -m &quot;%date% %time% auto-deploy&quot;
+REM 静默推送的话可在地址里填入username和password,如
+REM git remote add origin https://username:password@github.com/username/repo.git
+git remote add origin https://github.com/CoderMonkie/v-blog.git
+git pull
+git push --force origin HEAD:gh-pages
+echo &quot;GitHub Pages Deploy Complete!&quot;
+
+REM To delete the dist folder
+cd ..
+echo delete-directory: &quot;%cd%/dist&quot;
+rmdir /s /q &quot;%cd%/dist&quot;
+cd..
+cd..
+echo Auto-Deploy-Complete!
+pause
+</code></pre></div><div class="language-json extra-class"><pre class="language-json"><code>  &quot;scripts<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;deploy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;auto-deploy.bat&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><div class="language-cmd extra-class"><pre class="language-text"><code>npm run deploy
+</code></pre></div><hr> <blockquote><p>继续改进</p></blockquote> <ul><li><p><code>package.json</code>/<code>scripts</code>
+加一条，执行<code>git push</code>和<code>auto-deploy.bat</code><br>
+这样推送加部署就一口气完成啦</p></li> <li><p>使用<code>netlify</code>或者<code>travis-ci</code>这样的工具<br> <code>GitHub</code>的<code>WebHook</code>也要了解一下</p></li></ul> <p>更多好玩的，赶快来探索吧~</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2019-12-2 17:46:54</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/v-blog/knowhow/使用VuePress搭建个人博客.html" class="prev">使用VuePress搭建个人博客</a></span> <span class="next"><a href="/v-blog/knowhow/给博客添加评论功能.html">给博客添加评论功能</a>
+      →
+    </span></p></div>  <div class="wechat"><div class="wechat-txt"><p>~扫码关注&lt;码路工人&gt;了吗？~</p> <p>~关注公众号可以第一时间获取最新文章~</p> <p>~扫码关注可以联系交流~</p></div> <div class="wechat-img"><img src="/v-blog/img/QRCode-CoderPower.png" alt="WeChatQRCode"></div></div></main></div><div class="global-ui"><div></div></div></div>
+    <script src="/v-blog/assets/js/app.55913e7e.js" defer></script><script src="/v-blog/assets/js/4.2528882c.js" defer></script><script src="/v-blog/assets/js/3.e688a6f7.js" defer></script><script src="/v-blog/assets/js/49.64d73418.js" defer></script>
+  </body>
+</html>

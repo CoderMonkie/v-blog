@@ -1,0 +1,19 @@
+.navbar .site-name::before {
+    height: 2.2rem;
+    min-width: 2.2rem;
+    margin-right: .8rem;
+    vertical-align: middle;
+    display: inline-block;
+    content: '';
+    background: url('../img/logo.png') no-repeat;
+    background-size: 100%;
+}
+
+.dark {
+    background-color: #1C1E1F !important;
+    color: #B9CBD9 !important;
+}
+
+.dark-code {
+    background-color: #000000 !important;
+}
